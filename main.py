@@ -7,4 +7,6 @@ if x == "jes to prawdom":
 elif x == "niet":
     print("pierdolisz huju farmazony")
 else:
-    print("co ty pierdolisz")
+    print("co ty pierdolisz")   
+    
+print("rzyg")
