@@ -6,10 +6,13 @@
 
 # print(dbl(2)(3))  
 
-import moduleuk
+def false():
+    return False
 
-if __name__ == "__main__":
-    moduleuk.greeting("Cwirson")
-else:
-    print("uk is not main")
+x = "True"
+y = True
 
+print(x is y) # jesli 2 zmienne/dane sa takie same /// taki sam obiekt
+
+print(false() is False) # false() oddaje bool i powrownoje z bool
+print(false() is True) # False
